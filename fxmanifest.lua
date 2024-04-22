@@ -1,7 +1,7 @@
 fx_version 'adamant'
 games { 'gta5' }
 
-version '1.0.3'
+version '1.0.4'
 author 'HenkW'
 description "Simple Notification Script"
 
