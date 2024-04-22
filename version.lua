@@ -1,7 +1,8 @@
 local curVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
 local resourceName = "hw_notify"
+local vc = true
 
-if Config.checkForUpdates then
+if vc then
     CreateThread(function()
         if GetCurrentResourceName() ~= "hw_notify" then
             resourceName = "hw_notify (" .. GetCurrentResourceName() .. ")"
